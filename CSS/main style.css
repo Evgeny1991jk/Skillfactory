@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../Fonts/Vollkorn-Italic-VariableFont_wght.ttf');
+}
+header {
+    background-color: #FFFACD;
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+}
+header a {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+}
+.body_part {
+    background-image: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjYyMi1rdWwtMDctc3VtbWVyZ3JhZGllbnRfMS5qcGc.jpg?s=PmoWpLjeokge-7GOJ8AoxETTmk-HIw_VWUBWSYxL0nA");
+    margin: 0px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.intro_part {
+    font-family:'Vollkorn', Times, serif;
+    font-size: 135%;
+    text-align: center;
+}
+.about_me_part h2 {
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+.about_me_part {
+    margin: 15px;
+    word-wrap: break-word;
+    color: #00FF7F;
+    line-height: 120%;
+    font-size: 115%;
+    text-align: justify;
+}
+.about_me_part:hover {
+    background-color: black;
+}
+.about_ed_part {
+    margin: 10px;
+    width: 550px;
+    height: 200px;
+    padding: 15px;
+    background-color: rgb(255, 239, 213, 0.3);
+    line-height: 120%;
+    font-size: 115%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.about_work_part {
+    margin: 10px;
+    width: 650px;
+    height: 400px;
+    padding: 15px;
+    background-color: rgb(255, 218, 185, 0.3);
+    line-height: 120%;
+    font-size: 115%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative;
+    left: 700px;
+}
+.hobbies_part h2 {
+    font-family: 'Vollkorn', serif;
+    font-size: 185%;
+    text-align: center;
+}
+.hobbies_part p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 115%;
+    margin: 10px;
+}
+.hobbies_part ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 115%;
+}
+.Foot {
+    margin: 10px;
+    line-height: 120%;
+    font-size: 115%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
